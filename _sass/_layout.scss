@@ -38,7 +38,7 @@
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            // margin-right: 20px;
         }
     }
 
@@ -87,7 +87,7 @@
             &:not(:last-child) {
                 margin-right: 0;
             }
-            margin-left: 20px;
+            // margin-left: 20px;
         }
     }
 }
@@ -204,7 +204,7 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 24px;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -225,10 +225,10 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 20px;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: 20px;
         }
     }
 

@@ -1,9 +1,6 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
+    <!-- <h2 class="footer-heading">{{ site.title }}</h2> -->
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -11,28 +8,24 @@
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
-
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% if site.owner.weibo %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-github.html username=site.owner.weibo %}
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.owner.twitter %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-twitter.html username=site.owner.twitter %}
           </li>
           {% endif %}
         </ul>
       </div>
-
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
       </div>
     </div>
-
   </div>
-
 </footer>

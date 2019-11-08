@@ -3,8 +3,12 @@ title: 优乐购
 email: huoa.x@qq.com
 description: 买啥子，来找我！
 baseurl: ""
-twitter_username: huoa
-github_username:  huoa
+# twitter_username: huoa
+# github_username:  huoa
+
+owner:
+  weibo: huoa
+  twitter: huoa
 
 #permalink: "/:year/:i_month/:i_day/:slug"
 
