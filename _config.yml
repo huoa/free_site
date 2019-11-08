@@ -1,0 +1,20 @@
+# Site settings
+title: 优乐购
+email: huoa.x@qq.com
+description: 买啥子，来找我！
+baseurl: ""
+twitter_username: huoa
+github_username:  huoa
+
+#permalink: "/:year/:i_month/:i_day/:slug"
+
+permalink: /:year/:month/:day/:title
+
+paginate_path: "/page/:num"
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input:          GFM
+  entity_output:  as_char
